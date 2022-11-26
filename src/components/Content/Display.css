@@ -1,0 +1,14 @@
+.intro {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  width: 350px;
+}
+
+img {
+  width: 500px;
+}
+

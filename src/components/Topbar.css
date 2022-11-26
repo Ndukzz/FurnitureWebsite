@@ -1,0 +1,15 @@
+.topbar {
+  margin-top: 20px;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+

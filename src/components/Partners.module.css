@@ -1,0 +1,24 @@
+.partners {
+  padding: 0px 100px;
+  display: flex;  
+  align-items: center;
+}
+
+.partnersCard {
+  display: flex;
+  margin: 2rem auto;
+  width: fit-content;
+}
+
+.partnerImage {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  margin: 0px 10px;
+}
+
+.partnerImages {
+  display: flex;
+  list-style-type: none;
+}
+

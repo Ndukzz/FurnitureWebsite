@@ -1,0 +1,20 @@
+h4 {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.provisions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.provision__item{
+  text-align: center;
+  width: 250px;
+}
+
+
+.provision__item > p{
+  font-size: 0.9rem
+}

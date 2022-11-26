@@ -1,0 +1,33 @@
+.email {
+  width: 300px;
+}
+
+.sub {
+  font-size: smaller;
+}
+
+.border {
+  border: 2px solid black;
+  height: 150px;
+  width: 1px;
+  margin: 0px 20px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 85%;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.newsletter > section > input{
+  display: block;
+  margin: 10px;
+}
+
+.newsletter > section {
+  width: 45%;
+}

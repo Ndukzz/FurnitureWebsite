@@ -1,0 +1,37 @@
+nav {
+  background: #653e3e;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0px 75px;
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li:hover {
+  transition: 0.2s;
+  padding-bottom: 3px;
+  border-bottom: 3px dashed white;
+  cursor: pointer;
+}
+
+.faq {
+  margin-right: 50px; 
+}
+
+.faq:hover {
+  transition: 0.2s;
+  border-bottom: 2px dashed white;
+  padding-bottom: 3px;
+  cursor: pointer;
+
+}

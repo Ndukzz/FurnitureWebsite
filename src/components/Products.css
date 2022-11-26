@@ -1,0 +1,32 @@
+.products__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: bold;
+}
+
+/* the padding is what is causing the picture to overlap the boundary 
+  also fix the border radius of the picture...
+*/
+.product-card {
+  width: 250px;
+  padding: 0px 10px
+}
+
+.products {
+  display: flex;
+  justify-content: space-between
+}
+
+.product-card > section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+}
+
+.product-card > img {
+  padding: 0;
+  margin: 0;
+  height: 300px;
+  width:inherit;
+}

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+
+.button {
+  margin: 0 10px;
+}
+
+.white-button {
+  border-radius: 7px;
+  font-size: larger;
+  height: 45px;
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.brown-button {
+  border-radius: 7px;
+  font-size: larger;
+  height: 45px;
+  width: 150px;
+  background-color: #653e3e;
+  color: white;
+  border: none;
+}
