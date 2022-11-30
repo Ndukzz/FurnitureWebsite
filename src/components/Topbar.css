@@ -7,9 +7,50 @@
 }
 
 input {
-  width: 500px;
+  width: 40%;
   height: 40px;
   border-radius: 10px;
   border: 2px solid gray;
 }
 
+.signUp {
+  display: flex;
+
+}
+
+@media (max-width: 1080px) {
+  .topbar {
+    margin-top: 0px;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  input {
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid gray;
+  }
+}
+
+@media (max-width: 678px) {
+  .topbar {
+    padding: 10px 20px;
+    font-size:x-small;
+  }
+
+  .but {
+    font-size: x-small;
+    width: 50px;
+    margin: 0px 10px;
+  }
+
+  input{
+    width: 40%;
+    height: 25px;
+    font-size: x-small;
+    border-radius: 2px;
+  }
+  }

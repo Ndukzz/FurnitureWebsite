@@ -13,9 +13,9 @@ const TopBar = () => {
         // value={searchItem}
         placeholder="  Search For Products"
         />
-      <div>
-        <button className='button white-button'>Login</button>
-        <button className='button brown-button'>Sign Up</button>
+      <div className='signUp'>
+        <button className='but button white-button'>Login</button>
+        <button className='but button brown-button'>Sign Up</button>
       </div>
     </div>
   )

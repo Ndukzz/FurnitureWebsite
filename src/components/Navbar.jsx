@@ -1,19 +1,29 @@
 import React from 'react'
-import classes from "./Navbar.module.css"
+import { useState } from 'react'
+import "./Navbar.css"
+
 const Navbar = () => {
- 
+
+  const [toggleMenu, setToggleMenu] = useState(false)
+
+  function toggle() {
+    setToggleMenu(!toggleMenu)
+    console.log(toggleMenu)
+  }
+
   return (
-    <nav>
-      <ul className={classes.navList}>
-        <li className={classes.li}>Home</li>
-        <li className={classes.li}>Cart</li>
-        <li className={classes.li}>Likes</li>
-        <li className={classes.li}>Categories</li>
-        <li className={classes.li}>About</li>
-        <li className={classes.li}>Contact</li>
+    <nav className={`nav ${toggleMenu ? "" : "false"}`}>
+      <p className='menuIcon' onClick={toggle}>Menu</p>
+      <ul className={`navList  ${toggleMenu ? "" : "false"}`}>
+        <li className='li'>Home</li>
+        <li className='li'>Cart</li>
+        <li className='li'>Likes</li>
+        <li className='li'>Categories</li>
+        <li className='li'>About</li>
+        <li className='li'>Contact</li>
       </ul>
     
-      <div className={classes.faq}>FAQ</div>
+      <div className={`faq ${toggleMenu ? "" : "false"}`}>FAQ</div>
   </nav>
     )
 }

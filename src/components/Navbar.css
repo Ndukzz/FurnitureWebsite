@@ -1,0 +1,116 @@
+.nav {
+  background: #653e3e;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0px 75px;
+}
+
+.menuIcon {
+  display: none;
+}
+
+.menuIcon:hover {
+  cursor: pointer;
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li:hover {
+  transition: 0.2s;
+  padding-bottom: 3px;
+  border-bottom: 3px dashed white;
+  cursor: pointer;
+}
+
+.faq {
+  margin-right: 50px; 
+}
+
+.faq:hover {
+  transition: 0.2s;
+  border-bottom: 2px dashed white;
+  padding-bottom: 3px;
+  cursor: pointer;
+
+}
+
+
+/* This is the responsive design for below 1080px */
+/* find a way to make the navbar a block element and configure the toggle to work with it */
+
+@media (max-width: 1080px) {
+
+  .nav {
+    background: #653e3e;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0px 75px;
+  }
+  
+  .nav.false {
+    background: #653e3e;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0px 75px;
+  }
+
+  .faq {
+    display: block;
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .faq.false {
+    display: none;
+  }
+
+  .navList {
+    display: none;
+    padding: 0px;
+  }
+  
+  /* add the toggle menu functionalities */
+
+  .menuIcon {
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .navList {
+    display:block;
+    text-align: center;
+  }
+  .navList.false {
+    display:none;
+  }
+  .li {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 678px) {
+  .nav {
+    height: auto;
+    align-items: center;
+
+  }
+}

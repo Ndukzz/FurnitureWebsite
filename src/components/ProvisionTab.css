@@ -18,3 +18,14 @@ h4 {
 .provision__item > p{
   font-size: 0.9rem
 }
+
+@media (max-width: 900px) {
+  .provision__item{
+  width: 300px;
+  margin: 20px 0px;
+  }
+
+  .provisions {
+    justify-content: space-around;
+  }
+}

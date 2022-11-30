@@ -1,0 +1,55 @@
+.footer {
+  background: #653e3e;
+  color: white;
+}
+.footer > article {
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  border-top: 1px solid white;
+  width: 80%;
+}
+
+.footers {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 100px;;
+}
+
+section > ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+section > ul > li > img {
+  width: 20px;
+  padding: 2px;
+}
+
+.socials {
+  display: flex;
+}
+
+@media (max-width: 678px) {
+  .footers > section > h5 {
+    font-size: 0.5em;
+    height: 10px;
+  }
+
+  section > ul > li {
+    font-size: 0.5rem;
+  }
+
+  section > ul > li > img {
+    width: 10px;
+    padding: 2px;
+  }
+
+  .footers {
+    padding: 0px 30px;
+  }
+
+  section > ul {
+    width: 35px;
+  }
+}

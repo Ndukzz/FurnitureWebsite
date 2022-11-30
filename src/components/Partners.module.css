@@ -22,3 +22,27 @@
   list-style-type: none;
 }
 
+@media (max-width: 900px) {
+  .partnersCard {
+    display: flex;
+    margin: 2rem auto;
+  }
+  .partnerImages {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .partnerImage {
+    height: 10px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px 10px;
+  }
+
+  .partners {
+    padding: 0px 10px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+  }
+}

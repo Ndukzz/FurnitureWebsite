@@ -7,16 +7,22 @@ import "./Body.css"
 import Partners from './Partners'
 import ProvisionTab from './ProvisionTab'
 import Newsletter from './Newsletter'
+import Footer from './Footer'
 
 const Body = (props) => {
   return (
-    <div className='container'>
-      <Display />
-      <Partners />
-      <ProvisionTab provs={props.provs} />
-      <Products prod={props.prod} arrivals={props.arrivals}/>
-      <Reviews />
-      <Newsletter />
+    <div >
+      <div className='container'>
+        <Display />
+        <Partners />
+        <ProvisionTab provs={props.provs} />
+        <Products prod={props.prod} arrivals={props.arrivals}/>
+        <Reviews />
+        <Newsletter />
+      </div>
+
+      <Footer />
+
     </div>
   )
 }

@@ -14,33 +14,46 @@ const Products = (props) => {
         <h5>Popular Products</h5>
         <p>See All</p>
       </div>
+      
       <div className="products">
-      {props.prod.map((prod)=> {
-        return[
-          <Card className="product-card" key={prod.id}>
-            <img src={prod.pic} alt="just a couch" />
-            <div className="products">
-              <p>{prod.title}</p>
-              <p>{prod.price}</p>
-            </div>
-            <p>{prod.comment}</p>
-            <section className="shop">
-              <p>Shop now</p>
-              <p>*****</p>
-            </section >
-          </Card>
-        ]
+        {props.prod.map((prod)=> {
+          return[
+            <Card className="product-card" key={prod.id}>
+              <img src={prod.pic} alt="just a couch" />
+              <section className='description'>
+                <div className="products">
+                <p className="title">{prod.title}</p>
+                <p>${prod.price}</p>
+              </div>
+              <p>{prod.comment}</p>
+              <div className="shop">
+                <a href="/theShop">Shop now</a>
+                <p>*****</p>
+              </div>
+              </section>
+            </Card>
+          ]
         })}
       </div>
+
       <div className="products__heading">
         <h5>New Arrivals</h5>
         <p>See All</p>
       </div>
-      <div>
-        {//recreate this here and download the resetstylesheet
-          //the arrivals data has been passed into props
-          //the rest: reviews, newsletter and footer
-        }
+      <div className="products">
+        {props.arrivals.map((arrival)=>{
+          return [
+            <Card className="arrival-card" key={arrival.id}>
+              <img src={arrival.pic} alt="a new arrival"/>
+              <section className='description'>
+                <div className="arrival">
+                <p className="title">{arrival.title}</p>
+                <p>{arrival.description}</p>
+              </div>
+              </section>
+            </Card>
+          ]
+        })}
       </div>
     </>
   )

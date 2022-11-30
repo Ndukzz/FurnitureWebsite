@@ -4,11 +4,38 @@
   justify-content: space-between;
 }
 
-.heading {
-  width: 350px;
-}
-
 img {
   width: 500px;
 }
 
+@media (max-width: 1080px) {
+  .intro {
+
+    height: 550px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .heading {
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width:900px) {
+  .myButton {
+    width: inherit;
+    height: 40px;
+  }
+
+  .intro {
+    margin: 0px auto;
+  }
+}

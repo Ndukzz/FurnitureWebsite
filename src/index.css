@@ -33,3 +33,40 @@ body {
   color: white;
   border: none;
 }
+
+.brown-button:hover {
+  cursor: pointer;
+}
+
+.white-button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+  .white-button {
+    font-size: large;
+    height: 35px;
+    width: 120px;
+  }
+  
+  .brown-button {
+    font-size: larger;
+    height: 35px;
+    width: 120px;
+  }
+  
+}
+
+@media (max-width: 678px) {
+  .white-button {
+    font-size: small;
+    height: 25px;
+    width: 100px;
+  }
+  
+  .brown-button {
+    font-size: small;
+    height: 25px;
+    width: 100px;
+  }
+}

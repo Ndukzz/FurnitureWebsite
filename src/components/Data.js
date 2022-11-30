@@ -48,16 +48,23 @@ const Data = {
       comment: "The best center table"
     }
   ],
+
   arrivals: [
     {
+      id: 1,
+      pic: "/images/chair1.jpeg",
       title: "Complete bedroom furniture",
       description: "The completet set of bedroom furniture, comes with all complete set furniture"
     },
     {
+      id: 2,
+      pic: "/images/chair2.jpeg",
       title: "Complete Living Room furniture",
       description: "The completet set of living room furniture, comes with all complete set furniture"
     },
     {
+      id: 3,
+      pic: "/images/chair3.jpeg",
       title: "Complete Kitchen Set",
       description: "The completet set of Kitchen appliances, comes with all complete set appliances"
     }
