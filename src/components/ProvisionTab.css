@@ -1,4 +1,6 @@
 h4 {
+  font-family: "yorkie";
+  font-size: larger;
   text-align: center;
   padding: 40px 0px;
 }
@@ -14,6 +16,10 @@ h4 {
   width: 250px;
 }
 
+.provision__item > .discover{
+  font-weight: bold; 
+  color: #653e3e;
+}
 
 .provision__item > p{
   font-size: 0.9rem

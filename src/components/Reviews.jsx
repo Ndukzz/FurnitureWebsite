@@ -10,7 +10,7 @@ const Reviews = () => {
       <div className="reviews">
         <Card className="review">
           <section className="review__section">
-            <img src="./images/johndoe.png" alt="John Doe's pic" />
+            <img src="./images/rick.webp" alt="John Doe's pic" />
             <p>John Doe</p>
           </section>
           <p>Peak furniture provides the best of furniture i have ever used</p>
@@ -18,7 +18,7 @@ const Reviews = () => {
         
         <Card className="review">
           <section className="review__section">
-            <img src="./images/johndoe.png" alt="John Doe's pic" />
+            <img src="./images/wednesday.jpg" alt="John Doe's pic" />
             <p>John Doe</p>
           </section>
           <p>Peak furniture provides the best of furniture i have ever used</p>
@@ -26,7 +26,7 @@ const Reviews = () => {
 
         <Card className="review">
           <section className="review__section">
-            <img src="./images/johndoe.png" alt="John Doe's pic" />
+            <img src="./images/you.jpg" alt="John Doe's pic" />
             <p>John Doe</p>
           </section>
           <p>Peak furniture provides the best of furniture i have ever used</p>

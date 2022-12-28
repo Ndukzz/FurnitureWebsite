@@ -6,11 +6,31 @@
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 input {
   width: 40%;
   height: 40px;
   border-radius: 10px;
   border: 2px solid gray;
+}
+
+.logo > img {
+  height: 40px;
+  width: auto;
+}
+
+.logo > p {
+  padding: 0px;
+  margin: 0;
+  font-size: xx-small;
+  color: #653e3e;
+  font-family: yorkie;
+  text-align: center;
 }
 
 .signUp {
@@ -53,4 +73,6 @@ input {
     font-size: x-small;
     border-radius: 2px;
   }
-  }
+
+
+}

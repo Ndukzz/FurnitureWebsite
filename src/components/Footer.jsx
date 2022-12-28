@@ -10,21 +10,21 @@ const Footer = () => {
           <h5>Peak Furniture</h5>
         </section>
         <section>
-          <h5>Legal</h5>
+          <p>Legal</p>
           <ul>
             <li>Terms and Conditions</li>
             <li>Privacy Policy</li>
           </ul>
         </section>
         <section>
-          <h5>Partner with us</h5>
+          <p>Partner with us</p>
           <ul>
             <li>Become a Tutor</li>
             <li>Join our team</li>
           </ul>
         </section>
         <section>
-          <h5>Quick links</h5>
+          <p>Quick links</p>
           <ul>
             <li>Home </li>
             <li>Courses</li>
@@ -33,17 +33,23 @@ const Footer = () => {
           </ul>
         </section>
         <section>
-          <h5>Need help?</h5>
+          <p>Need help?</p>
           <ul>
             <li>FAQ's</li>
           </ul>
         </section>
         <section>
-          <h5>Contact:</h5>
+          <p>Contact:</p>
           <ul className='socials'>
-            <li><img src="images/deviantart.png" alt="facebook"/></li>
-            <li><img src="images/deviantart.png" alt="twitter"/></li>
-            <li><img src="images/deviantart.png" alt="instagramx"/></li>
+            <a href="https://www.instagram.com/_ndukz_._/" target="_blank" rel="noreferrer">
+              <img src="images/instagram.png" alt="instagram"/>
+            </a>
+            <a href="https://twitter.com/Ndukz__" target="_blank" rel="noreferrer">
+              <img src="images/twitter.png" alt="twitter"/>
+            </a>
+            <a href="https://www.linkedin.com/in/ebuka-ndukwe-6a962721a/" target="_blank" rel="noreferrer">
+              <img src="images/linkedin.png" alt="linkedin"/>
+            </a>
           </ul>
         </section>
       </div>

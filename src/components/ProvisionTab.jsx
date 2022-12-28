@@ -10,10 +10,10 @@ const ProvisionTab = (props) => {
       <div className="provisions">
       {props.provs.map((prov)=> {
         return[
-          <Card className="provision__item">
+          <Card className="provision__item" key={prov.id}>
             <h3>{prov.title}</h3>
             <p>{prov.description}</p>
-            <p>Discover More </p>
+            <p className='discover'>Discover More </p>
           </Card>
         ]
       })}

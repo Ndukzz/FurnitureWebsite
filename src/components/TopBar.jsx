@@ -7,7 +7,10 @@ const TopBar = () => {
 
   return (
     <div className="topbar"> 
-      <div>Logo</div>
+      <div className='logo'>
+        <img src="images/sofa.png" alt="logo" />
+        <p>Peak Furniture</p>
+      </div>
       <input 
         type="text"
         // value={searchItem}

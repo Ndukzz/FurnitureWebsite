@@ -8,6 +8,16 @@ img {
   width: 500px;
 }
 
+
+.heading {
+  width: 30%;
+  padding: 10px 0px;
+}
+
+.heading > h1 {
+  font-family: "yorkie", Verdana, Tahoma;
+}
+
 @media (max-width: 1080px) {
   .intro {
 

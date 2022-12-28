@@ -1,18 +1,22 @@
 const Data = {
   provisions : [
     {
+      id: 1,
       title: "Quality Furniture",
       description: "Quality and long lasting furniture specially crafted by experts."
     },
     {
+      id: 2,
       title: "Affordable Furniture",
       description: "Quality and long lasting furniture specially crafted by experts."
     },
     {
+      id: 3,
       title: "Wide range of Furniture",
       description: "Quality and long lasting furniture specially crafted by experts."
     },
     {
+      id: 4,
       title: "Warranty",
       description: "Quality and long lasting furniture specially crafted by experts."
     }

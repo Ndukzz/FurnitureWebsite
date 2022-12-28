@@ -22,16 +22,22 @@ const Products = (props) => {
               <img src={prod.pic} alt="just a couch" />
               <section className='description'>
                 <div className="products">
-                <p className="title">{prod.title}</p>
-                <p>${prod.price}</p>
-              </div>
+                  <p className="title">{prod.title}</p>
+                  <p>${prod.price}</p>
+                </div>
               <p>{prod.comment}</p>
               <div className="shop">
                 <a href="/theShop">Shop now</a>
-                <p>*****</p>
+                <div className='rating'>
+                  <span click="rate(5)">☆</span>
+                  <span click="rate(4)">☆</span>
+                  <span click="rate(3)">☆</span>
+                  <span click="rate(2)">☆</span>
+                  <span click="rate(1)">☆</span>
+                </div>
               </div>
               </section>
-            </Card>
+            </Card> 
           ]
         })}
       </div>

@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "yorkie";
+  src:url(../src/yorkie/YorkieDEMO-Bold.otf) format("truetype");
+}
+
 html {
   font-family: sans-serif;
   background: #ffffff;
@@ -36,10 +41,19 @@ body {
 
 .brown-button:hover {
   cursor: pointer;
+  background-color: white;
+  color: #653e3e;
+  border: 1px solid #653e3e;
+  transition: all ease-in-out 0.5s;
 }
 
 .white-button:hover {
   cursor: pointer;
+  background-color: #653e3e;
+  color: #653e3e;
+  color: white;
+  border: 1px solid #653e3e;
+  transition: all ease-in-out 0.5s;
 }
 
 @media (max-width: 1080px) {

@@ -1,9 +1,14 @@
 .email {
   width: 90%;
 }
+section > h5 {
+  font-family: "yorkie";
+  font-size: larger;
+}
 
 .sub {
   font-size: smaller;
+  margin: 10px 
 }
 
 .border {
@@ -18,18 +23,18 @@
   justify-content: center;
   align-items: center;
   height: 200px;
-  width: 85%;
+  width: 95%;
   margin: 30px auto;
   padding: 20px;
 }
 
 .newsletter > section > input{
   display: block;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 .newsletter > section {
-  width: 45%;
+  width: 37%;
 }
 
 @media (max-width: 678px) {
@@ -38,4 +43,11 @@
     padding: 5px;
     width: 90%;
   }
+
+  .sub {
+    font-size: xx-small;
+  }
+
+  .newsletter > section > p {
+    font-size: xx-small;  }
 }
